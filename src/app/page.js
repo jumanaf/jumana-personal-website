@@ -188,7 +188,7 @@ computational analyses and contextualizing data generated internally</li>
           College public sentiment classifier model
           </p>
           <p className="space-y-30 font-mono text-pretty text-sm text-green-600 text-muted-foreground">
-          Python, Numpy, 
+          Python, Numpy, NLTK, Sklearn, Pytorch
           </p>
           <p className="space-y-30 font-mono text-pretty text-sm text-muted-foreground">
           <strong>Key insights:</strong> As a highschooler, I recall using Reddit to learn about various colleges I was applying to as a way to learn more about the college, as well as the culture in the institution.
