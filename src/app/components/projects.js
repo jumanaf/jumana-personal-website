@@ -19,7 +19,7 @@ export default function projects() {
           will be published to the app store (IOS and Android) that gives users a smoother and more personalized EV charging experience. T
           This experience was a way for me to learn rapidly about very new domains (EV charging, fullstack application development and deployment) and 
           shows that I can learn new technologies at speed to create impact using my skills as an engineer!
-
+      </p>
 
           <p className="space-y-2 font-mono text-pretty text-l text-muted-foreground text-green-800 font-bold">
           Personal website
