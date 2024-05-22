@@ -10,7 +10,7 @@ export default function experiences() {
           Computational biologist
           </p>
           <p className="space-y-30 font-mono text-pretty text-sm text-green-600 text-muted-foreground">
-          Dyno Therapeutics, 2021 - Present
+          Dyno Therapeutics, 2021 - 2023
           </p>
           <p className="space-y-30 my-5 font-mono text-pretty text-sm text-muted-foreground">
           <strong>Responsibilities:</strong> </p>
