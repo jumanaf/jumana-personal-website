@@ -14,26 +14,11 @@ export default function projects() {
           Next.JS, React, Node.JS, Express.JS, Tailwind, Docker, Google Cloud Storage, Vercel
           </p>
           <p className="space-y-30 font-mono text-pretty text-sm text-muted-foreground mb-10">
-          <strong>Key insights:</strong> As a project, I developed a web application for a pilot for a stealth startup. This webapp 
-          is integral in testing their pilot service as they service their first customers. I worked with various APIs, and rolled out 
-          a serverless web application for their customer use, as well as an internal data dashboard. I'm currently deploying a mobile application,
-          providing users with a more seamless and lightweight experience.
-          </p>
-
-        <p className="space-y-2 font-mono text-pretty text-l text-muted-foreground text-green-800 font-bold">
-          Web and mobile app developement for stealth startup
-          </p>
-          <p className="space-y-2 font-mono text-pretty text-sm text-green-600 text-muted-foreground">
-          NextJS, React, NodeJS, Tailwind, Docker, Firebase
-          </p>
-          <p className="space-y-30 font-mono text-pretty text-sm text-muted-foreground mb-10">
-          <strong>Key insights:</strong> I developed a fullstack web application
-          for a stealth startup's pilot that can be used by early adopters of the application. This application allows users to log on, and allows us
+          <strong>Key insights:</strong> As a project, I developed a web application for a pilot for a stealth startup. This application allows users to log on, and allows us
           to access vehicle information to create a white-glove EV charging service. I am currently developing the mobile application that
           will be published to the app store (IOS and Android) that gives users a smoother and more personalized EV charging experience. T
           This experience was a way for me to learn rapidly about very new domains (EV charging, fullstack application development and deployment) and 
           shows that I can learn new technologies at speed to create impact using my skills as an engineer!
-          </p>
 
 
           <p className="space-y-2 font-mono text-pretty text-l text-muted-foreground text-green-800 font-bold">
