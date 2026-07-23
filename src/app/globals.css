@@ -41,6 +41,7 @@ body {
 
 /* Styling for MDX blog post bodies */
 .prose {
+  font-size: 1.06rem;
   line-height: 1.75;
 }
 .prose p {

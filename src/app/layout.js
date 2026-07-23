@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
                 <div>
                   <Link
                     href="/"
-                    className="font-display text-2xl font-bold tracking-tight text-fg transition-colors hover:text-accent"
+                    className="font-sans text-4xl font-extrabold tracking-tight text-fg transition-colors hover:text-accent sm:text-5xl"
                   >
                     {profile.name}
                   </Link>

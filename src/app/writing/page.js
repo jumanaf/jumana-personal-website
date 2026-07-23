@@ -9,7 +9,7 @@ export default function Writing() {
   return (
     <div>
       <h1 className="font-display text-xl font-bold text-fg">Writing</h1>
-      <p className="mt-2 text-[15px] leading-relaxed text-muted">
+      <p className="mt-2 text-base leading-relaxed text-muted">
         Occasional notes on data, storytelling, and things I’m curious about.
       </p>
 

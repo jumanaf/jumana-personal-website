@@ -23,7 +23,7 @@ module.exports = {
         display: ['var(--font-display)', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
       maxWidth: {
-        content: '42rem',
+        content: '60rem',
       },
       keyframes: {
         'fade-up': {
