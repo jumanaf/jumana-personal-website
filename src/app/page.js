@@ -1,69 +1,42 @@
-import Image from 'next/image'
-import { inter } from '/src/app/fonts';
-import headshot from "/public/headshot.png";
-import Education from "./components/education";
-import About from "./components/about"
-import Experiences from "./components/experiences"
-import Projects from "./components/projects"
-// import resume from "/src/data/resume";
+import Image from 'next/image';
+import headshot from '/public/headshot.png';
+import { profile, experienceSummary, getInTouch } from '@/data/content';
 
-
-export default function Home() {
+export default function About() {
   return (
-    <main className="container relative mx-auto overflow-auto p-10 print:p-10 md:p-10">
-    <section className="mx-1 w-full max-w-1.5l space-y-1 bg-white print:space-y-1">
-      <div className="flex items-center justify-between">
-        <div className="flex-1 space-y-1.5">
-          <h1 className="text-2xl font-bold">Jumana Fathima</h1>
-          <p className="text-pretty font-mono text-sm text-muted-foreground">
-         Data scientist with experience in techbio, focused on creating data-driven impact using effective
-        data engineering and storytelling techniques.
-          </p>
-          <p className="items-center text-pretty font-mono text-xs text-muted-foreground">
-              <a
-                className="text-green-600 inline-flex gap-x-1.5 align-baseline leading-none text-green"
-              >
-                Seattle, WA, USA
-              </a>
-              </p>
+    <div className="space-y-12">
+      <section className="flex flex-col-reverse items-start gap-6 sm:flex-row sm:items-center sm:justify-between">
+        <div className="space-y-3 text-base leading-relaxed text-fg sm:text-[17px]">
+          {profile.intro.map((para, i) => (
+            <p key={i}>{para}</p>
+          ))}
         </div>
-        <Image 
-        className="flex flex-row"
-      src={headshot} 
-        alt="headshot"
-        width={150}
-        height={150}
-        style={{
-          maxWidth: "100%",
-          height: "auto",}}/> 
-        </div>
-        
-        </section>
+        <Image
+          src={headshot}
+          alt="Jumana Fathima"
+          width={120}
+          height={120}
+          priority
+          className="h-28 w-28 shrink-0 rounded-full border border-border object-cover shadow-sm sm:h-32 sm:w-32"
+        />
+      </section>
 
-        <section className="mx-1 w-full max-w-1.5l space-y-1 bg-white print:space-y-1">
-        <About/>
-        </section>
-        
-        <section className="mx-1 my-10 w-full max-w-1.5l space-y-1 bg-white print:space-y-1">
-        <Projects/>
-        </section>
+      <section>
+        <h2 className="font-display text-lg font-bold text-fg">Experience</h2>
+        <p className="mt-3 text-[17px] leading-relaxed text-fg">{experienceSummary}</p>
+      </section>
 
-        <section className="mx-1 my-5 w-full max-w-1.5l space-y-1 bg-white print:space-y-1">
-        <Experiences/>
-        </section>
-
-        <section className="mx-1 my-10 w-full max-w-1.5l space-y-1 bg-white print:space-y-1">
-        <div className="flex items-center justify-between">
-        <Education/>
-        </div>
-        </section>
-
-
-
-
-
-
-        </main>
-
-  )
+      <section>
+        <h2 className="font-display text-lg font-bold text-fg">Get in touch about</h2>
+        <ul className="mt-4 space-y-4">
+          {getInTouch.map((item, i) => (
+            <li key={i} className="flex gap-3 text-[17px] leading-relaxed text-fg">
+              <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" />
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    </div>
+  );
 }

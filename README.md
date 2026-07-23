@@ -1,1 +1,0 @@
-This holds all the code for my personal website, hosted on github pages. I derived style inspiration from this [CV](https://github.com/BartoszJarocki/cv/tree/main).
